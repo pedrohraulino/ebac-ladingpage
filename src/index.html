@@ -10,12 +10,12 @@
 </head>
 
 <body>
-    <section class="hero">
-        <img src="./img/pedro.png" alt="Pedro com chapeu de aniversario">
-        <div class="hero__title">
-            <h1>O maior aniversario do Brasil começa em 30d 17h 20min 56s</h1>
+    <header class="hero">
+        <img src="./img/pedro.png" alt="Pedro com chapeu de aniversario" data-aos="fade-up">
+        <div class="hero__title" data-aos="fade-up">
+            <h1>O maior aniversario do Brasil começa em <span id="countDate"></span></h1>
         </div>
-        <div class="hero__infos">
+        <div class="hero__infos" data-aos="fade-up">
             <ul class="hero__infos__card">
                 <li class="hero__infos__card__details">
                     <h3><b>Localização</b></h3>
@@ -32,7 +32,47 @@
             </ul>
             <button>Comprar Presente</button>
         </div>
+    </header>
+    <section class="about">
+        <div class="about__card" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+            <img src="../src/img/about pedro.jpg" alt="">
+            <div class="about__card__infos">
+                <h2>Sobre o Pedro</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt omnis neque quia illo labore
+                    sunt, similique dolor ipsa accusamus mollitia ullam nostrum natus maxime voluptate inventore
+                    unde exercitationem aliquam ut!
+
+                    <br><br> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt omnis neque quia illo
+                    labore
+                    sunt, similique dolor ipsa accusamus mollitia ullam nostrum natus maxime voluptate inventore
+                    unde exercitationem aliquam ut!
+                </p>
+            </div>
+        </div>
+        <div class="about__card " data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
+            <div class="about__card__infos">
+                <h2>Local da festa</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt omnis neque quia illo labore
+                    sunt, similique dolor ipsa accusamus mollitia ullam nostrum natus maxime voluptate inventore
+                    unde exercitationem aliquam ut!
+
+                    <br><br> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt omnis neque quia illo
+                    labore
+                    sunt, similique dolor ipsa accusamus mollitia ullam nostrum natus maxime voluptate inventore
+                    unde exercitationem aliquam ut!
+                </p>
+            </div>
+            <img src="../src/img/mirante.jpeg" alt="">
+        </div>
     </section>
+
+    <section class="map" data-aos="fade-up">
+        <h2>Como chegar</h2>
+        <img src="./img/maps.png" alt="">
+    </section>
+    <footer>
+        <h3>Desenvolvido por @pedrohraulino</h3>
+    </footer>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="./scripts/main.js"></script>
 </body>

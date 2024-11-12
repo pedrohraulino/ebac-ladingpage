@@ -1,4 +1,6 @@
 @use 'hero';
+@use 'about';
+@use 'map';
 
 * {
     margin: 0;
@@ -7,4 +9,17 @@
     text-decoration: none;
     font-family: sans-serif;
     max-width: 100%;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    h3 {
+        padding: 16px;
+        border-top: 2px solid #fff;
+        color: #fff;
+    }
+    background-color: #17263C;
+    padding: 24px 24px;
+    padding-top: 40px;
 }
